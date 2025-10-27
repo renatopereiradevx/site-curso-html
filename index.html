@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curso Completo de HTML — Do Zero ao Avançado | Renato Pereira</title>
+    <meta name="description"
+        content="Aprenda HTML do zero ao avançado com aulas práticas, projeto final e acesso vitalício. Ideal para iniciantes que querem entrar no desenvolvimento web.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <div class="container-xl">
+            <a class="navbar-brand nav-brand" href="#">Renato<span style="color:var(--muted)">Pereira</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+                aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="reveal" id="heroCard">
+
+                        <div class="headline">
+                            <h1 class="headline-text">
+                                Aprenda <span style="color:var(--accent)">HTML5 do Zero</span> e Dê o Primeiro Passo Para se Tornar um <span style="color:var(--accent)">Programador Web de Verdade!</span>
+                            </h1>
+                            <p class="subhead mt-3">
+                                Mesmo que você nunca tenha programado antes, em poucas semanas você vai dominar as bases da web e será capaz de criar seus próprios sites do zero.
+                            </p>
+                        </div>
+
+                        
+                        <div class="headline-video-vendas">
+                            <iframe src="https://www.youtube.com/embed/qdBU1y_tBzs?si=Jk-kG7U-UBejX0o2" 
+                                style="width: 100%; height: 100%; border-radius:10px;"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+
+                        <div class="headline-cta">
+                            <a type="button" class="btn-headline">
+                                <i class="bi bi-rocket-fill me-2"></i> Quero Começar Agora
+                            </a>
+
+                            <!--
+                            <ul class="list-unstyled d-flex gap-3 mt-4 flex-wrap">
+                                <li class="d-flex align-items-center"><i class="bi bi-check2-circle me-2" style="color:var(--accent)"></i> Aulas em
+                                    vídeo + material PDF</li>
+                                <li class="d-flex align-items-center"><i class="bi bi-check2-circle me-2" style="color:var(--accent)"></i> Projetos
+                                    reais e portfólio</li>
+                                <li class="d-flex align-items-center"><i class="bi bi-check2-circle me-2" style="color:var(--accent)"></i> Suporte
+                                    para dúvidas</li>
+                            </ul>
+                            -->
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES / BENEFÍCIOS -->
+        <section class="mt-5 reveal" id="beneficios">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <h5>Aprenda com objetivo</h5>
+                        <p class="small text-muted">Aulas estruturadas para você evoluir de forma consistente — do
+                            básico ao avançado.</p>
+                        <hr>
+                        <ul class="small">
+                            <li>Conteúdo direto ao ponto</li>
+                            <li>Exercícios práticos</li>
+                            <li>Templates prontos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <h5>Suporte e comunidade</h5>
+                        <p class="small text-muted">Grupo exclusivo para tirar dúvidas e trocar projetos com outros
+                            alunos.</p>
+                        <hr>
+                        <ul class="small">
+                            <li>Suporte via e-mail</li>
+                            <li>Grupo no Telegram/Discord</li>
+                            <li>Revisões de projeto</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <h5>Garantia de satisfação</h5>
+                        <p class="small text-muted">7 dias de garantia incondicional — risco zero para você
+                            experimentar.</p>
+                        <hr>
+                        <ul class="small">
+                            <li>Reembolso fácil</li>
+                            <li>Sem perguntas</li>
+                            <li>Transparência total</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTEÚDO / MÓDULOS -->
+        <section class="mt-5" id="conteudo">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <h3 class="mb-3">Conteúdo do Curso — Do Básico ao Avançado</h3>
+                    <p class="text-muted">Cada módulo foi pensado para garantir que você entenda não só o "como", mas o
+                        "porquê" das decisões na construção de páginas web.</p>
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="module">
+                                <strong>Módulo 1 — Fundamentos</strong>
+                                <p class="small text-muted mb-0">Introdução ao HTML, estrutura de uma página, tags
+                                    básicas (headings, parágrafos, links, imagens).</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="module">
+                                <strong>Módulo 2 — Semântica e Acessibilidade</strong>
+                                <p class="small text-muted mb-0">Tags semânticas, boas práticas e como tornar suas
+                                    páginas acessíveis.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="module">
+                                <strong>Módulo 3 — Formulários e Validações</strong>
+                                <p class="small text-muted mb-0">Formulários HTML, inputs avançados, atributos e
+                                    validação básica.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="module">
+                                <strong>Módulo 4 — HTML Avançado</strong>
+                                <p class="small text-muted mb-0">Tabelas, embeds, SEO básico, meta tags e performance.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="module mt-3">
+                                <strong>Módulo 5 — Projeto Final</strong>
+                                <p class="small text-muted mb-0">Construção de um site completo passo a passo, deploy e
+                                    checklist para portfólio.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="hero-card">
+                        <h5 class="mb-3">Bônus inclusos</h5>
+                        <ul class="small">
+                            <li>Template de site pronto para personalizar</li>
+                            <li>Checklist de publicação</li>
+                            <li>Aula extra: introdução ao CSS</li>
+                            <li>Grupo exclusivo de alunos</li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <h6 class="mb-2">Formato</h6>
+                            <p class="text-muted small mb-0">Aulas em vídeo, materiais para download e projetos
+                                práticos. Acesso imediato e vitalício.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="mt-5" id="depoimentos">
+            <h3 class="mb-3">Depoimentos</h3>
+            <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial">
+                            <p>“Nunca imaginei que seria capaz de entender programação, mas o Renato explica de um jeito
+                                simples e direto!”</p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="https://i.pravatar.cc/48?img=10" alt="aluno" width="48" height="48"
+                                    style="border-radius:8px">
+                                <div>
+                                    <strong>Mariana</strong><br><small class="text-muted">25 anos</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial">
+                            <p>“Depois desse curso, finalmente consegui montar meu primeiro site e já estou estudando
+                                CSS e JavaScript!”</p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="https://i.pravatar.cc/48?img=12" alt="aluno" width="48" height="48"
+                                    style="border-radius:8px">
+                                <div>
+                                    <strong>Anderson</strong><br><small class="text-muted">19 anos</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial">
+                            <p>“Comecei sem saber nada e hoje já consigo criar páginas completas para meus projetos!”
+                            </p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="https://i.pravatar.cc/48?img=24" alt="aluno" width="48" height="48"
+                                    style="border-radius:8px">
+                                <div>
+                                    <strong>Fernanda</strong><br><small class="text-muted">31 anos</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonial"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonial"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- OFFER / PRICING -->
+        <section class="mt-5" id="compra">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-7">
+                    <div class="hero-card">
+                        <h3>Oferta Especial — Acesso Imediato</h3>
+                        <p class="text-muted">Aproveite o preço promocional e comece a estudar hoje mesmo. Acesso
+                            vitalício e atualizações incluídas.</p>
+
+                        <ul class="small">
+                            <li>Conteúdo completo de HTML — do zero ao avançado</li>
+                            <li>Projeto final com deploy</li>
+                            <li>Suporte direto para dúvidas</li>
+                            <li>Certificado digital</li>
+                        </ul>
+
+                        <div class="mt-3 d-flex align-items-center gap-3">
+                            <div class="display-6 fw-bold">R$97</div>
+                            <div class="text-muted small">ou 12x de R$9,70</div>
+                        </div>
+
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-lg btn-success" id="btnPurchase"><i
+                                    class="bi bi-credit-card-2-front-fill me-2"></i> Comprar Agora</a>
+                            <a href="#garantia" class="btn btn-link text-decoration-none">Ver garantia</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="hero-card text-center">
+                        <h6 class="mb-3">Bônus de Inscrição</h6>
+                        <p class="small text-muted">Receba materiais extras e templates prontos assim que finalizar a
+                            compra.</p>
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=8a1b3f1f3b3e4b8e6f1d1b3a1c2d4e5f"
+                            alt="bonus" class="img-fluid rounded" style="max-height:160px; object-fit:cover;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GUARANTEE -->
+        <section class="mt-5" id="garantia">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="feature-card">
+                        <h5>Garantia de 7 dias — Sem riscos</h5>
+                        <p class="small text-muted">Se você não gostar do curso nas primeiras 7 dias, devolvemos 100% do
+                            valor. Reembolso simples e rápido.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-items-center">
+                    <div>
+                        <small class="text-muted">Pagamento seguro</small>
+                        <div class="d-flex gap-2 mt-2">
+                            <i class="bi bi-credit-card-2-front" style="font-size:1.6rem"></i>
+                            <i class="bi bi-bar-chart-line" style="font-size:1.6rem"></i>
+                            <i class="bi bi-shield-lock" style="font-size:1.6rem"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="mt-5 mb-5">
+            <h4>Perguntas Frequentes</h4>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne">O curso é para iniciantes?</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Sim — ele foi pensado para quem nunca programou. Começamos do zero e
+                            progredimos até tópicos avançados.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo">Quanto tempo terei acesso?</button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Acesso vitalício — assista quando quiser e volte às aulas sempre que
+                            precisar.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree">Recebo certificado?</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Sim — ao concluir o curso, você poderá baixar um certificado digital
+                            de conclusão.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- CTA BAR FIXA (mobile & desktop) -->
+    <!-- <div class="cta-bar d-none d-md-block">
+        <div class="cta-inner mx-auto p-2">
+            <div class="me-auto d-flex gap-2 align-items-center">
+                <div class="fw-bold">Preço especial</div>
+                <div class="small text-muted">R$97 — Acesso vitalício</div>
+            </div>
+            <div>
+                <a href="#compra" class="btn btn-sm btn-success">Comprar Agora</a>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- FOOTER -->
+    <footer class="mt-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong>Curso Completo de HTML — Renato Pereira</strong>
+                    <p class="small text-muted">Copyright © 2025 Renato Pereira. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-4 text-md-end small text-muted">
+                    <a href="#" class="text-muted me-3">Termos</a>
+                    <a href="#" class="text-muted">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
