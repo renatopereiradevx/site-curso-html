@@ -167,16 +167,20 @@ footer {
     }
 
     .feature-card h5 {
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     .box-para-quem h3 {
          text-align: center;  
-         font-size: 1.2rem !important;
+         /* font-size: 1.2rem !important; */
     }
 
     .box-para-quem {
         text-align: left !important;
+    }
+
+    .titulo-oferta {
+        text-align: center;
     }
 }
 
@@ -248,4 +252,16 @@ p.small {
 
 .feature-card p {
     font-size: 13px;
+}
+
+.accordion-button {
+    background-color: var(--card);
+    color: #e6eef8;
+    font-weight: bold;
+}
+
+.accordion-collapse {
+    background-color: var(--bg);
+    color: #b0b0b0;
+    font-size: 14px;
 }

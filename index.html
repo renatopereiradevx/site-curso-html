@@ -25,10 +25,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
         <div class="container-xl">
             <a class="navbar-brand nav-brand" href="#">Renato<span style="color:var(--muted)">Pereira</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
-                aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
         </div>
     </nav>
 
@@ -59,7 +55,7 @@
                         </div>
 
                         <div class="headline-cta">
-                            <a type="button" class="btn-headline">
+                            <a href="#oferta" class="btn-headline">
                                 <i class="bi bi-rocket-fill me-2"></i> Quero Começar Agora!
                             </a>
                         </div>
@@ -161,7 +157,7 @@
                         </p>
 
                         <div class="headline-cta mt-5 text-center">
-                            <a type="button" class="btn-headline">
+                            <a href="#oferta" class="btn-headline">
                                 <i class="bi bi-rocket-fill me-2"></i> Quero Começar Agora!
                             </a>
                         </div>
@@ -171,7 +167,7 @@
         </section>
 
         <!-- CONTEÚDO / MÓDULOS -->
-        <section id="conteudo">
+        <section class="mb-5" id="conteudo">
             <div class="row g-4">
                 <div class="col-lg-12">
 
@@ -188,7 +184,7 @@
                     <div class="row g-3">
                         <div class="col-md-4">
                             <div class="feature-card">
-                                <i class="bi bi-emoji-smile" style="font-size: xx-large; display: block; text-align: center; color: #4df379;"></i>
+                                <i class="bi bi-tags" style="font-size: xx-large; display: block; text-align: center; color: #4df379;"></i>
                                 <h5 class="text-center">Módulo Básico</h5>
                                 <p class="small mb-0">
                                     Introdução ao HTML, estrutura de uma página, tags, formatação de texto, listas, boas práticas e como tornar suas páginas acessíveis.
@@ -197,14 +193,14 @@
                         </div>
                         <div class="col-md-4">
                             <div class="feature-card">
-                                <i class="bi bi-emoji-laughing" style="font-size: xx-large; display: block; text-align: center; color: #4df379;"></i>
+                                <i class="bi bi-shield-exclamation" style="font-size: xx-large; display: block; text-align: center; color: #4df379;"></i>
                                 <h5 class="text-center">Módulo Intermediário</h5>
                                 <p class="small mb-0">Tabelas, direcionamento de página com links, inserção de imagens interna, e externa via banco de imagem, e tags semânticas.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="feature-card">
-                                <i class="bi bi-emoji-heart-eyes" style="font-size: xx-large; display: block; text-align: center; color: #4df379;"></i>
+                                <i class="bi bi-rocket-takeoff" style="font-size: xx-large; display: block; text-align: center; color: #4df379;"></i>
                                 <h5 class="text-center">Módulo Avançado</h5>
                                 <p class="small mb-0">Formulários HTML, inputs avançados, atributos, validação, Inserção de vídeo interno, externo e do YouTube.</p>
                             </div>
@@ -274,75 +270,61 @@
         </section>
         -->
 
-        
-        <!-- OFFER / PRICING -->
-        <section class="mt-5" id="compra">
+
+        <!-- OFFERTA / PRICING -->
+        <section class="mt-5 mb-5" id="oferta">
             <div class="row g-4 align-items-center">
                 <div class="col-md-7">
-                    <div class="hero-card">
-                        <h3>Oferta Especial — Acesso Imediato</h3>
-                        <p class="text-muted">Aproveite o preço promocional e comece a estudar hoje mesmo. Acesso
-                            vitalício e atualizações incluídas.</p>
+                    <div class="">
+                        <h3 class="titulo-oferta" style="font-weight: bold;">
+                            Oferta <span style="color:var(--accent)">Especial</span>
+                        </h3>
+                        <p class="small"><strong>ATENÇÃO!</strong> Curso com preço promocional e pode subir a qualquer momento. Ao se inscrever agora, você garante:</p>
 
-                        <ul class="small">
-                            <li>Conteúdo completo de HTML — do zero ao avançado</li>
-                            <li>Projeto final com deploy</li>
-                            <li>Suporte direto para dúvidas</li>
-                            <li>Certificado digital</li>
-                        </ul>
+                        <div><i class="bi bi-check" style="color:var(--accent)"></i> Acesso vitalício ao curso completo</div>
+
+                        <div><i class="bi bi-check" style="color:var(--accent)"></i> Certificado de conclusão</div>
+                        <div><i class="bi bi-check" style="color:var(--accent)"></i> Suporte direto para dúvidas</div>
+                        <div><i class="bi bi-check" style="color:var(--accent)"></i> Material de apoio e exercícios práticos</div>
 
                         <div class="mt-3 d-flex align-items-center gap-3">
-                            <div class="display-6 fw-bold">R$97</div>
-                            <div class="text-muted small">ou 12x de R$9,70</div>
+                            <div class="display-6 fw-bold">R$9,70</div>
+                            <p class="small">ou R$97,00 a vista</p>
+                            
                         </div>
+                        
+                        <div class="small">de 12x</div>
 
                         <div class="mt-4">
-                            <a href="#" class="btn btn-lg btn-success" id="btnPurchase"><i
+                            <a href="#" class="btn-headline" id="btnPurchase"><i
                                     class="bi bi-credit-card-2-front-fill me-2"></i> Comprar Agora</a>
-                            <a href="#garantia" class="btn btn-link text-decoration-none">Ver garantia</a>
                         </div>
                     </div>
+
+                    <p class="mt-4 small">
+                        Garantia de 7 dias. Nesse período, caso não goste do curso, peça o reembolso e devolvemos 100% do seu dinheiro, sem burocracia. Risco zero. Resultado garantido.
+                    </p>
                 </div>
 
                 <div class="col-md-5">
-                    <div class="hero-card text-center">
-                        <h6 class="mb-3">Bônus de Inscrição</h6>
-                        <p class="small text-muted">Receba materiais extras e templates prontos assim que finalizar a
-                            compra.</p>
-                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=8a1b3f1f3b3e4b8e6f1d1b3a1c2d4e5f"
-                            alt="bonus" class="img-fluid rounded" style="max-height:160px; object-fit:cover;">
+                    <div class="text-center">
+                        <i class="bi bi-shield-lock" style="font-size: 8em;color: #4df379;"></i>
+                        <div>Pagamento 100% Seguro</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- GUARANTEE -->
-        <section class="mt-5" id="garantia">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="feature-card">
-                        <h5>Garantia de 7 dias — Sem riscos</h5>
-                        <p class="small text-muted">Se você não gostar do curso nas primeiras 7 dias, devolvemos 100% do
-                            valor. Reembolso simples e rápido.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex align-items-center">
-                    <div>
-                        <small class="text-muted">Pagamento seguro</small>
-                        <div class="d-flex gap-2 mt-2">
-                            <i class="bi bi-credit-card-2-front" style="font-size:1.6rem"></i>
-                            <i class="bi bi-bar-chart-line" style="font-size:1.6rem"></i>
-                            <i class="bi bi-shield-lock" style="font-size:1.6rem"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <hr>
 
         <!-- FAQ -->
         <section class="mt-5 mb-5">
-            <h4>Perguntas Frequentes</h4>
-            <div class="accordion" id="faqAccordion">
+            <div class="text-center reveal">
+                <h3 style="font-weight: bold;">
+                    Perguntas <span style="color:var(--accent)">Frequentes</span>
+                </h3>
+            </div>
+            <div class="accordion mt-4" id="faqAccordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -353,7 +335,7 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqOne">
+                    <h2 class="accordion-header" id="faqTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo">Preciso de algum conhecimento prévio?</button>
                     </h2>
@@ -362,7 +344,7 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqTwo">
+                    <h2 class="accordion-header" id="faqThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree">Por quanto tempo terei acesso ao curso?</button>
                     </h2>
@@ -380,7 +362,7 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqThree">
+                    <h2 class="accordion-header" id="faqFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFive">Posso assistir pelo celular?</button>
                     </h2>
@@ -390,7 +372,7 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqThree">
+                    <h2 class="accordion-header" id="faqFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseSix">E se eu não gostar do curso?</button>
                     </h2>
