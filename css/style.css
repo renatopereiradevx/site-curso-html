@@ -235,8 +235,6 @@ footer {
 .btn-headline:hover {
     color: #444444;
     font-weight: 600;
-    font-size: 1.325rem;
-    transition: all 0.3s ease-in-out;
 }
 
 .feature-card h5 {

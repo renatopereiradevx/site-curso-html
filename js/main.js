@@ -38,29 +38,6 @@
                     });
                 });
 
-                // Purchase button stub (replace with real checkout integration)
-                var btnPurchase = document.getElementById('btnPurchase');
-                if (btnPurchase) {
-                    btnPurchase.addEventListener('click', function (e) {
-                        e.preventDefault();
-                        // In production, replace the alert with an actual redirect to your checkout provider
-                        try {
-                            alert('Redirecionando para checkout... (substitua este stub pela integração com Hotmart/Monetizze/PagSeguro).');
-                        } catch (alertErr) {
-                            console.error('Erro ao acionar compra:', alertErr);
-                        }
-                    });
-                }
-
-                // Hero purchase button smooth scroll (safe)
-                var btnBuy = document.getElementById('btnBuy');
-                if (btnBuy) {
-                    btnBuy.addEventListener('click', function (e) {
-                        e.preventDefault();
-                        var comp = document.getElementById('compra');
-                        if (comp) { comp.scrollIntoView({ behavior: 'smooth' }); }
-                    });
-                }
 
             } catch (innerErr) {
                 console.error('Erro durante inicialização dos handlers da página:', innerErr);
