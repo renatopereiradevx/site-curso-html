@@ -122,6 +122,11 @@ footer {
     color: var(--muted)
 }
 
+#lista-oque-aprender {
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+}
 
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -177,6 +182,10 @@ footer {
 
     .titulo-oferta {
         text-align: center;
+    }
+
+    #lista-oque-aprender {
+        width: 95%;
     }
 }
 
